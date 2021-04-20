@@ -1,5 +1,6 @@
+/*
 header {
-    background: #f0f3f1;
+    background: $background;
     text-align: center;
     font-family: 'Hind', sans-serif;
     display: flex;
@@ -13,7 +14,7 @@ header > * {
 }
 header a {
     text-decoration: none;
-    color: #334252;
+    color: $secondary;
 }
 header > a {
     font-size: 34px;
@@ -23,7 +24,7 @@ header a span {
     width: 34px;
     height: 34px;
     display: inline-block;
-    background: #f75940;
+    background: $primary;
     line-height: 34px;
     color: #fff;
     border-radius: 6px;
@@ -32,4 +33,45 @@ header a span {
 header li {
     width: 60px;
     list-style: none;
+}
+*/
+header{
+    background: $background;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4em;
+
+    > *{
+        display: flex;
+        align-items: center;
+    }
+
+    a{
+        text-decoration: none;
+        color: $secondary;
+
+        span{
+            width: 34px;
+            height: 34px;
+            display: inline-block;
+            background: $primary;
+            line-height: 34px;
+            color: #fff;
+            border-radius: 6px;
+            text-align: center;
+        }
+    }
+
+    > a{
+        font-size: 34px;
+        font-weight: 700;    
+    }
+
+    li{
+        width: 60px;
+        list-style: none;
+    }
 }
