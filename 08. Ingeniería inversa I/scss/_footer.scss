@@ -1,0 +1,12 @@
+footer {
+    color: $text;
+    margin-top: 10px;
+
+    a{
+        color: $primary;
+
+        &:hover {
+            color: $secondary;
+        }
+    }
+}

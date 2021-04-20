@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(https://demo.w3layouts.com/demos_new/template_demo/10-01-2020/fog-error-liberty-demo_Free/1818096415/web/images/bg.jpg);
+    font-family: 'Work Sans', sans-serif;
+    margin: 50px 0 0 0;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    color: $primary;
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 180px;
+    font-weight: bold;
+    color: rgba($primary, 0.5);
+    padding: 20px 20px;
+}
+
+h3 {
+    color: $primary;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px 10px 0px;
+}
+
+p {
+    font-size: 16px;
+    color: $text;
+    margin-top: 10px;
+}
+
+.back {
+    display: inline-block;
+    color: $primary;
+    font-size: 18px;
+    border: $border;
+    border-radius: 4px;
+    padding: 12px 30px;
+    margin: 50px 0px 100px 0px;
+
+    &:hover{
+        background: $primary;
+        border: $border;
+        color: $secondary;
+    }
+}
